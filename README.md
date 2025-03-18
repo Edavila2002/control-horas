@@ -10,7 +10,7 @@ El script consiste en una aplicación web interactiva desarrollada con Streamlit
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/nombre_del_proyecto.git
+   git clone https://github.com/Edavila2002/control-horas.git
 
 2. crear un entorno virtual virtual
    ```bash
