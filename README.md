@@ -12,7 +12,7 @@ El script consiste en una aplicación web interactiva desarrollada con Streamlit
    ```bash
    git clone https://github.com/Edavila2002/control-horas.git
 
-2. crear un entorno virtual virtual
+2. crear un entorno virtual
    ```bash
    python -m venv venv
 
