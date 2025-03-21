@@ -1,56 +1,34 @@
+# <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python Logo" width="30"> Control de horas
 
-# 🕑 Control de Horas
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Esta aplicación web interactiva permite gestionar y analizar las horas trabajadas por empleados en diferentes servicios, utilizando un archivo Excel como fuente de datos. La aplicación ofrece dos funcionalidades principales:  
+El script consiste en una aplicación web interactiva desarrollada con Streamlit que permite a los usuarios cargar un archivo de Excel con registros de horas trabajadas por empleados y generar reportes personalizados.
 
-1. **Análisis de las horas trabajadas por empleado.**
-2. **Análisis de las horas trabajadas por servicio.**
+## Instalación
 
-# ✅ Requisitos
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Edavila2002/control-horas.git
 
-* Un **navegador web** moderno (Google Chrome, Mozilla Firefox, etc.).
-* Un **archivo de Excel** (.xlsx) con los registros de horas trabajadas, con el formato correcto.
-* **Conexión a Internet** para acceder a la aplicación web.
+2. crear un entorno virtual
+   ```bash
+   python -m venv venv
 
+3. activar el entorno virtual
+   ```bash
+   source venv/bin/activate
 
-## 🌐 Uso
+4. instalar las dependencias
+   ```bash
+   pip install -r requirements.txt
 
-1. **Acceder a la aplicación:**
-   - Abre tu navegador web y navega a la URL:  
-     [https://coord-horas-jyejbg2iktxvt5p9ndnsfc.streamlit.app/](https://coord-horas-jyejbg2iktxvt5p9ndnsfc.streamlit.app/).
+5. ejecutar la aplicación
+   ```bash
+   streamlit run app.py
 
-   ![alt text](image.png)
+## Uso
 
-2. **Subir el archivo de Excel:**
-   - En la página principal, haz clic en el botón **"Browse files"** para cargar el archivo .xlsx que contiene los registros de horas trabajadas de tus empleados.
-   
-   ![alt text](image-1.png)
-   
-   - Selecciona el archivo desde tu computadora y haz clic en **"Abrir"**. El archivo se cargará y se mostrará una vista previa en la aplicación.
-   - El archivo debe tener el formato correcto para que la aplicación pueda procesarlo adecuadamente.
-
-   ![alt text](image-2.png)
-
-3. **Seleccionar mes y año:**
-   - Una vez cargado el archivo, selecciona el **mes** y el **año** correspondientes para los cuales deseas generar el reporte de horas trabajadas.
-
-   ![alt text](image-3.png)
-
-4. **Aplicar filtros (opcional):**
-   - Puedes aplicar filtros para ver los datos de empleados específicos o por estado de la jornada (ej. "Cumple jornada", "No cumple jornada", "Excede jornada").
-
-   ![alt text](image-4.png)
-   
-5. **Ver los resultados:**
-   - Los datos filtrados se mostrarán en una tabla con detalles sobre las horas trabajadas por empleado. Además, se calculará automáticamente el total de horas trabajadas para los empleados seleccionados.
-
-   ![alt text](image-5.png)
-
-6. **Ver análisis por servicio (opcional):**
-   - Si necesitas ver las horas trabajadas por servicio, selecciona la opción correspondiente en el menú lateral. Aquí podrás cargar otro archivo de Excel con los registros de horas trabajadas por servicio y realizar los mismos pasos de filtrado y visualización.
-
-   ![alt text](image-6.png)
-
-   ![alt text](image-7.png)
-
-    
+1. Abre tu navegador web y navega a la URL proporcionada por Streamlit.
+2. Sube un archivo de Excel con los registros de horas trabajadas.
+3. Selecciona el mes y el año para los que deseas generar el reporte
